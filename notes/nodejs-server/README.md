@@ -1,7 +1,5 @@
 # Веб-сервер на Ubuntu с нуля: nginx, HTTP/2, brotli и HTTPS
 
-[Видео](https://youtu.be/oanbIqkS9LM)
-
 Проверено на Ubuntu 18.04.4 LTS
 
 ## Настройка root
@@ -446,4 +444,4 @@ curl example.com
 ---
 
 Изначально позаимствовано из [инструкции Вадима Макеева](https://github.com/pepelsbey/playground/blob/master/23/README.md)
-
+[Видео](https://youtu.be/oanbIqkS9LM)
