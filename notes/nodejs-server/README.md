@@ -360,7 +360,7 @@ sudo nginx -t
 Рестартуем nginx
 
 ```
-sudo systemctl restart nginx
+sudo systemctl reload nginx
 ```
 
 ## Добавление сертификата
@@ -380,7 +380,7 @@ sudo nginx -t
 Рестартуем nginx
 
 ```
-sudo systemctl restart nginx
+sudo systemctl reload nginx
 ```
 
 Проверяем сайт
