@@ -273,7 +273,6 @@ OpenSSH (v6)               ALLOW       Anywhere (v6)
 Добавляем источники
 
 ```
-sudo apt install software-properties-common
 sudo add-apt-repository ppa:certbot/certbot
 ```
 
