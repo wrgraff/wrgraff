@@ -276,12 +276,6 @@ OpenSSH (v6)               ALLOW       Anywhere (v6)
 sudo add-apt-repository ppa:certbot/certbot
 ```
 
-Обновляемся
-
-```
-sudo apt update
-```
-
 Ставим certbot
 
 ```
