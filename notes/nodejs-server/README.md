@@ -443,5 +443,5 @@ curl example.com
 
 ---
 
-Изначально позаимствовано из [инструкции Вадима Макеева](https://github.com/pepelsbey/playground/blob/master/23/README.md)
+Изначально позаимствовано из [инструкции Вадима Макеева](https://github.com/pepelsbey/playground/blob/master/23/README.md)  
 [Видео](https://youtu.be/oanbIqkS9LM)
