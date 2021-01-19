@@ -19,10 +19,10 @@ passwd
 Обновляем систему
 
 ```
-apt-get update
-apt-get upgrade
-apt-get dist-upgrade
-apt-get autoremove
+apt update
+apt upgrade
+apt dist-upgrade
+apt autoremove
 ```
 
 Добавляем пользователя
@@ -135,7 +135,7 @@ sudo apt-add-repository -y ppa:hda-me/nginx-stable
 Устанавливаем сервер и модули
 
 ```
-sudo apt-get install brotli nginx nginx-module-brotli
+sudo apt install brotli nginx nginx-module-brotli
 ```
 
 Чиним сервис nginx
@@ -273,20 +273,20 @@ OpenSSH (v6)               ALLOW       Anywhere (v6)
 Добавляем источники
 
 ```
-sudo apt-get install software-properties-common
+sudo apt install software-properties-common
 sudo add-apt-repository ppa:certbot/certbot
 ```
 
 Обновляемся
 
 ```
-sudo apt-get update
+sudo apt update
 ```
 
 Ставим certbot
 
 ```
-sudo apt-get install python-certbot-nginx
+sudo apt install python-certbot-nginx
 ```
 
 Генерируем ключ
