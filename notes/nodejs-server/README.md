@@ -343,10 +343,17 @@ mkdir -p /var/www/newsite.idealcode.site/html
 sudo nano /etc/nginx/sites-available/newsite.idealcode.site.conf
 ```
 
+Я сразу создаю закрытый доступ к сайту через пароль, чтобы поисковики не индексировали его. Если это не нужно, то строки с auth нужно удалить
+
 ```
 server {
     listen 80;
     listen [::]:80;
+
+    location / {
+        auth_basic "Hiding";
+        auth_basic_user_file /var/www/pass/.htpasswd;
+    }
 
     server_name newsite.idealcode.site www.newsite.idealcode.site;
     root /var/www/newsite.idealcode.site/html;
