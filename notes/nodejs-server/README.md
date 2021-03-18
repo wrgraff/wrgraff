@@ -1,3 +1,4 @@
+
 # Веб-сервер на Ubuntu с нуля: nginx, HTTP/2, brotli и HTTPS
 
 Проверено на Ubuntu 18.04.4 LTS
@@ -333,13 +334,13 @@ sudo chown -R $USER:$USER /var/www/
 Создаём папку сайта
 
 ```
-mkdir -p /var/www/example.com/html
+mkdir -p /var/www/newsite.idealcode.site/html
 ```
 
 Создаём конфиг сайта
 
 ```
-sudo nano /etc/nginx/sites-available/example.com.conf
+sudo nano /etc/nginx/sites-available/newsite.idealcode.site.conf
 ```
 
 ```
@@ -347,8 +348,8 @@ server {
     listen 80;
     listen [::]:80;
 
-    server_name example.com www.example.com;
-    root /var/www/example.com/html;
+    server_name newsite.idealcode.site www.newsite.idealcode.site;
+    root /var/www/newsite.idealcode.site/html;
     index index.html index.xml;
 }
 ```
@@ -356,7 +357,7 @@ server {
 Активируем сайт
 
 ```
-sudo ln -s /etc/nginx/sites-available/example.com.conf /etc/nginx/sites-enabled/
+sudo ln -s /etc/nginx/sites-available/newsite.idealcode.site.conf /etc/nginx/sites-enabled/
 ```
 
 Проверяем конфиги nginx
@@ -394,7 +395,7 @@ sudo systemctl reload nginx
 Проверяем сайт
 
 ```
-curl example.com
+curl newsite.idealcode.site
 ```
 
 ---
