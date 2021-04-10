@@ -1,0 +1,33 @@
+---
+basics:
+  name: Артур Трифонов
+  label: Разработчик интерфейсов
+  email: hello@frontend-design.ru
+  phone: '8 921 946 95 05'
+  site: frontend-design.ru
+  about:
+    Разработчик интерфейсов из Санкт-Петербурга
+    Занимаюсь дизайном и фронтендом 8 лет, проектирую взаимодействие с интерфейсом от выяснения потребностей потребителя до фокусировки на кнопках
+
+skills:
+  instruments:
+    - - Figma
+      - Sketch
+      - Photoshop
+      - Illustrator
+      - Axure RP
+    - - npm
+      - Gulp
+      - Git
+      - 11ty
+  technologies:
+    - - html
+      - css
+      - js
+      - a11y
+      - bem
+
+education:
+  - ЛГУ им. Пушкина, факультет дизайна, специализация дизайн среды
+  - Икра, Digital-стратег
+  - ИмПро, интенсив
