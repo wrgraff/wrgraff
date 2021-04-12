@@ -44,9 +44,10 @@ projects:
       Сверстал адаптивный шаблон сайта, подготовил для установки на систему управления.
     site: v-apteka.ru
     url: https://v-apteka.ru/
-    lighthouse: 95 / 100 / 100 / 100
+    lighthouse:
       mobile: 95
       desktop: 100
+      smth: 100
       seo: 100
   - name: Сайт-каталог А2-Технологии
     description:
