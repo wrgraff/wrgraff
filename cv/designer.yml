@@ -16,22 +16,14 @@ basics:
     Увлекаюсь преподаванием. Нравится создавать материалы для студентов и ещё приятнее видеть результаты помощи.
 
 skills:
-  instruments:
-    - - Figma
-      - Sketch
-      - Photoshop
-      - Illustrator
-      - Axure RP
-    - - npm
-      - Gulp
-      - Git
-      - 11ty
-  technologies:
-    - - html
-      - css
-      - js
-      - a11y
-      - bem
+  - Дизайн-система, UI kit
+  - Атомарный дизайн, токены
+  - Интерактивные макеты и прототипы Figma
+  - Документация, Storybook
+  - Исследоваание конкурентов
+  - HTML, CSS, JS / SPA
+  - Тайм-менеджмент
+  - Написание статей, менторство
 
 education:
   - theme: JavaScript. Архитектура клиентских приложений
