@@ -26,10 +26,13 @@ skills:
   - Написание статей, менторство
 
 education:
+  - theme: Учимся понимать, проектировать и описывать поведение пользователей в интерфейсах
+    name: Design Line PRO
+    date: Май 2022
   - theme: JavaScript. Архитектура клиентских приложений
     name: .html academy
     date: Июль – Сентябрь 2021
-  - theme: «Digital-стратег '13/1»
+  - theme: Digital-стратег '13/1
     name: Школа инноваций и креативного мышления ИКРА
     date: Ноябрь 2013
   - theme: Основы User Centered Design
